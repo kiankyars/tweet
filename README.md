@@ -2,7 +2,9 @@
 
 ## Setup
 
-Add these to your `~/.zshrc` or .env file:
+Make a free account and project at https://developer.x.com and get the below keys:
+
+![keys](keys.png)
 
 ```
 export TWEEPY_BEARER_TOKEN="<your_bearer_token>"
@@ -12,9 +14,7 @@ export TWEEPY_ACCESS_TOKEN="<your_access_token>"
 export TWEEPY_ACCESS_TOKEN_SECRET="<your_access_token_secret>"
 ```
 
-Make a free account and project at https://developer.x.com to get the above keys here:
-
-![keys](keys.png)
+Add them to your `~/.zshrc` or .env file:
 
 > if you add to config file:
 ```sh
