@@ -12,11 +12,16 @@ export TWEEPY_ACCESS_TOKEN="<your_access_token>"
 export TWEEPY_ACCESS_TOKEN_SECRET="<your_access_token_secret>"
 ```
 
+Make a free account and project at https://developer.x.com to get the above keys.
+
+> if you add to config file:
+```sh
+source ~/.zshrc
+```
+
 ## Usage
 
 ```sh
-
-source .venv/bin/activate
 uv sync
 uv run tweet.py "your tweet here"
 ```
