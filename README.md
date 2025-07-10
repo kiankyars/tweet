@@ -12,9 +12,7 @@
 
 ![keys](https://github.com/kiankyars/twtr/blob/main/keys.png)
 
-2. Add your keys to your shell config
-
-Add these lines to your `~/.zshrc` or `~/.bashrc`:
+2. Add these lines to your `~/.zshrc` or `~/.bashrc`:
 ```sh
 export TWEEPY_BEARER_TOKEN="<your_bearer_token>"
 export TWEEPY_CONSUMER_KEY="<your_consumer_key>"
@@ -24,7 +22,11 @@ export TWEEPY_ACCESS_TOKEN_SECRET="<your_access_token_secret>"
 ```
 Then reload your config:
 ```sh
-source ~/.zshrc # or source ~/.bashrc
+source ~/.zshrc
+```
+or
+```sh
+source ~/.bashrc
 ```
 
 ## Usage
