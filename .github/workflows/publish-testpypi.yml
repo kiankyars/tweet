@@ -8,8 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  if_merged:
-    if: github.event.pull_request.merged == true
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
