@@ -15,7 +15,7 @@ dependencies = ["tweepy"]
 twtr = "twtr.cli:main" 
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/twtr"]
+packages = ["twtr"]
 
 [[tool.uv.index]]
 name = "pypi"
