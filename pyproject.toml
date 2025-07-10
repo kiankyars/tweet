@@ -16,3 +16,13 @@ twtr = "twtr.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/twtr"]
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+publish-url = "https://upload.pypi.org/legacy/"
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
+publish-url = "https://test.pypi.org/legacy/"
