@@ -10,7 +10,7 @@
 - Access Token
 - Access Token Secret
 
-![keys](https://github.com/kiankyars/twtr/blob/main/keys.png)
+![](https://github.com/kiankyars/twtr/blob/main/keys.png?raw=true)
 
 2. Add these lines to your `~/.zshrc` or `~/.bashrc`:
 ```sh

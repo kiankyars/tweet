@@ -4,7 +4,7 @@ requires = ["hatchling"]
 
 [project]
 name = "twtr"
-version = "0.0.5"
+version = "0.0.6"
 description = "Minimal CLI to tweet via Twitter API."
 authors = [ { name = "Kian Kyars" } ]
 readme = "README.md"
@@ -12,7 +12,7 @@ requires-python = ">=3.8"
 dependencies = ["tweepy"]
 
 [project.scripts]
-twtr = "twtr.cli:main" 
+twtr = "twtr.src.cli:main" 
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/twtr"]
