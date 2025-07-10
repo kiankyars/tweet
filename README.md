@@ -12,7 +12,9 @@ export TWEEPY_ACCESS_TOKEN="<your_access_token>"
 export TWEEPY_ACCESS_TOKEN_SECRET="<your_access_token_secret>"
 ```
 
-Make a free account and project at https://developer.x.com to get the above keys.
+Make a free account and project at https://developer.x.com to get the above keys here:
+
+![keys](keys.png)
 
 > if you add to config file:
 ```sh
