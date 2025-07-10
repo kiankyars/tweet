@@ -17,4 +17,8 @@ export TWEEPY_ACCESS_TOKEN_SECRET="<your_access_token_secret>"
 cd ~/Code/tweepy_cli
 source .venv/bin/activate
 python tweet.py "your tweet here"
-``` 
+```
+
+## Note
+
+Requires `TWEEPY_BEARER_TOKEN` in environment for v2 posting. 
