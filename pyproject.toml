@@ -13,3 +13,6 @@ dependencies = ["tweepy"]
 
 [project.scripts]
 twtr = "twtr.cli:main" 
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/twtr"]
