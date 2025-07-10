@@ -4,7 +4,7 @@ requires = ["hatchling"]
 
 [project]
 name = "twtr"
-version = "0.0.1"
+version = "0.0.2"
 description = "Minimal CLI to tweet via Twitter API."
 authors = [ { name = "Kian Kyars" } ]
 readme = "README.md"
