@@ -1,6 +1,6 @@
 [project]
 name = "twtr"
-version = "0.1.0"
+version = "0.0.1"
 description = "Minimal CLI to tweet via Twitter API."
 authors = [ { name = "Kian Kyars" } ]
 readme = "README.md"
