@@ -1,0 +1,11 @@
+[project]
+name = "twtr"
+version = "0.1.0"
+description = "Minimal CLI to tweet via Twitter API."
+authors = [ { name = "Your Name" } ]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["tweepy"]
+
+[project.scripts]
+twtr = "twtr.cli:main" 

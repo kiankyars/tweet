@@ -37,11 +37,18 @@
 
 ## Usage
 
-Install dependencies and run:
+Install from PyPI:
 
 ```sh
-uv sync
-uv run tweet.py "your tweet here"
+uv pip install twtr
 ```
+
+Then tweet from the CLI:
+
+```sh
+twtr "your tweet here"
+```
+
+If you get an error about missing API keys, see the setup instructions above.
 
 The script will use the environment variables from your `.env` file or shell config.
