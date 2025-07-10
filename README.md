@@ -10,7 +10,7 @@
 - Access Token
 - Access Token Secret
 
-![keys](keys.png)
+![keys](https://github.com/kiankyars/twtr/blob/main/keys.png)
 
 2. Add your keys to your shell config
 
