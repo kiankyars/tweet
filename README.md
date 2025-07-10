@@ -29,10 +29,10 @@ source ~/.zshrc # or source ~/.bashrc
 
 ## Usage
 
-Install from PyPI:
+Install from PyPI with uv:
 
 ```sh
-uv pip install twtr
+uv tool install twtr
 ```
 
 Then tweet from the CLI:
@@ -40,5 +40,3 @@ Then tweet from the CLI:
 ```sh
 twtr "your tweet here"
 ```
-
-If you get an error about missing API keys, see the setup instructions above.
