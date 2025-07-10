@@ -16,4 +16,7 @@ def tweet(text):
         access_token=access_token,
         access_token_secret=access_token_secret
     )
-    client.create_tweet(text=text)
+    try:
+        client.create_tweet(text=text)
+    except tweepy.errors.Unauthorized:
+        raise RuntimeError('401 Unauthorized: Check the README to set up your Twitter API keys.')
